@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plushtype: free voice typing for Windows and Mac</title>
+  <meta name="description" content="Say “type” and talk: your words appear in any app. Free, no account, runs on your computer.">
+  <meta name="repo" content=""><!-- owner/repo of the GitHub repository; empty = worked out from this page's address on GitHub Pages -->
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top wrap">
+    <a class="brand" href="#"><img src="icon.png" alt="" width="36" height="36"><span>Plushtype</span></a>
+    <nav><a href="#install">Install</a><a href="#commands">Commands</a><a href="#privacy">Privacy</a></nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <p class="kicker">Free voice typing · Windows and Mac</p>
+      <h1>Talk.<br>It types.</h1>
+      <p class="lead">Say “type” and speak: your words appear in whatever app you are using. It can also open apps, search the web and close windows by voice. No account, no subscription, and your voice never leaves your computer.</p>
+
+      <div class="cta" id="cta">
+        <a class="btn primary" id="dl-win" href="#" data-os="win">Download for Windows<small>Windows 10 or 11 · about 130 MB</small></a>
+        <a class="btn primary" id="dl-mac-arm" href="#" data-os="mac">Download for Mac<small>Apple Silicon (M1 or newer)</small></a>
+        <a class="btn" id="dl-mac-x64" href="#" data-os="mac">Mac with an Intel chip<small>Not sure? Apple menu → About This Mac</small></a>
+      </div>
+      <p class="fine" id="version"></p>
+    </section>
+
+    <section class="wrap" id="install">
+      <h2>Install in three steps</h2>
+      <div class="cols">
+        <div class="card" id="steps-win">
+          <h3>Windows</h3>
+          <ol>
+            <li>Download the file and open it.</li>
+            <li>If Windows says <b>“Windows protected your PC”</b>, click <b>More info</b>, then <b>Run anyway</b>. This warning appears for every new app that is not signed with a paid certificate.</li>
+            <li>Click <b>Install</b>. The first start downloads the speech files once (about 660 MB); after that it works offline.</li>
+          </ol>
+        </div>
+        <div class="card" id="steps-mac">
+          <h3>Mac</h3>
+          <ol>
+            <li>Download the file, open it and drag <b>Plushtype</b> into <b>Applications</b>.</li>
+            <li>Open it. If macOS says it cannot check the app, click <b>Done</b>, then <b>System Settings → Privacy &amp; Security → Open Anyway</b>.</li>
+            <li>Allow <b>Microphone</b>, <b>Accessibility</b> (so it can type for you) and <b>Automation</b> when asked. The first start downloads the speech files once (about 660 MB).</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap" id="commands">
+      <h2>What you can say</h2>
+      <div class="grid">
+        <div><code>“type” …</code><p>Types what you say into the app in front.</p></div>
+        <div><code>“stop”</code><p>Ends typing.</p></div>
+        <div><code>“send it” / “enter”</code><p>Presses Enter.</p></div>
+        <div><code>“open Notepad”</code><p>Opens it. Add “in the background” to keep your screen.</p></div>
+        <div><code>“search funny cats”</code><p>Shows the results in Chrome.</p></div>
+        <div><code>“close Chrome”</code><p>Closes the app, or just the tab you name.</p></div>
+      </div>
+    </section>
+
+    <section class="wrap" id="privacy">
+      <h2>Private by design</h2>
+      <p class="lead small">The speech recognition runs on your own computer. Plushtype has no account and sends nothing anywhere: the only network use is the one-time download of the speech files. It listens all the time but types only after you say your trigger word, and a small capsule on the screen always shows what it is doing.</p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <span>Plushtype</span>
+    <a id="src" href="#">Source and all downloads</a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
